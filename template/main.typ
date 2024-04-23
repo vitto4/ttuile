@@ -16,7 +16,7 @@
   numero-poste: "0",
   date: datetime.today(),
   // sommaire: false,
-  // chemin-logo: "path/to/your/logo.png",
+  // logo: image("path_to/logo.png"),
   // point-legende: true,
 )
 

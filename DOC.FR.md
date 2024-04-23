@@ -4,7 +4,7 @@
 
 C'est la fonction principale, le point d'entrée du template. Elle doit être appelée en début de document, comme décrit dans [README.FR.md > Utilisation](https://github.com/vitto4/ttuile/blob/main/README.FR.md#-utilisation).
 
-Si le compte rendu n'est pas réalisé pour l'INSA Lyon, le logo peut être remplacé ou supprimé avec l'argument `chemin-logo`.
+Si le compte rendu n'est pas réalisé pour l'INSA Lyon, le logo peut être remplacé ou supprimé avec l'argument `logo`.
 
 ### `annexe`
 

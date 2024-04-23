@@ -64,7 +64,7 @@ Voici ce à quoi la structure résultante devrait ressembler :
 | `numero-poste` | `none` | `content?` | Numéro du poste ou banc de TP. |
 | `date` | `none` | `datetime \| content?` | Date à laquelle le TP a été réalisé. |
 | `sommaire` | `true` | `bool` | Afficher le sommaire ? |
-| `chemin-logo` | `"logo-insa-lyon.png"` | `str?` | Chemin du logo de l'école à utiliser. |
+| `logo` | `image("logo-insa-lyon.png")` | `image?` | Logo de l'école à utiliser. |
 | `point-legende` | `false` | `bool` | Imposer que les légendes se finissent avec un point. (encore expérimental, c'est un peu du bricolage ^^) |
 
 Un seul argument positionnel est accepté, étant le corps du rapport.
@@ -90,7 +90,7 @@ Le template peut ensuite être utilisé selon la syntaxe suivante :
   numero-poste: "0",
   date: datetime.today(),
   // sommaire: false,
-  // chemin-logo: "path/to/your/logo.png",
+  // logo: image("path_to/logo.png"),
   // point-legende: true,
 )
 ```

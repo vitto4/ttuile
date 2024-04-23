@@ -75,8 +75,8 @@
   // Afficher la table des matières ? ; `bool`.
   sommaire: true,
 
-  // Chemin du logo à utiliser ; `str?`.
-  chemin-logo: "logo-insa-lyon.png",
+  // Logo à utiliser ; `image?`.
+  logo: image("logo-insa-lyon.png"),
 
   // Imposer le point à la fin des légendes ; `bool`.
   point-legende: false,
@@ -168,9 +168,10 @@
         ], // Align(left)
         
         // Alignement à droite du logo INSA, si applicable
-        if (chemin-logo != none) {
+        if (logo != none) {
+          set image(width: 90%)
           align(right + horizon)[
-            #image(chemin-logo, width: 90%)
+            #logo
           ]
         }
       )

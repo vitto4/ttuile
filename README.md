@@ -66,7 +66,7 @@ The template is now ready to be used, and can be called supplying the following 
 | `numero-poste` | `none` | `content?` | Number of your lab bench. |
 | `date` | `none` | `datetime \| content?` | Date at which the lab work/practical was carried out. |
 | `sommaire` | `true` | `bool` | Display the table of contents ? |
-| `chemin-logo` | `"logo-insa-lyon.png"` | `str?` | Path of the university logo to use. |
+| `logo` | `image("logo-insa-lyon.png")` | `image?` | University logo to use. |
 | `point-legende` | `false` | `bool` | Enable automatic enforcing of figures' captions ending in a full stop (still somewhat experimental). |
 
 A single positional argument is accepted, being the report's body.
@@ -92,7 +92,7 @@ You can call the template using the following syntax :
   numero-poste: "0",
   date: datetime.today(),
   // sommaire: false,
-  // chemin-logo: "path/to/your/logo.png",
+  // logo: image("path_to/logo.png"),
   // point-legende: true,
 )
 ```
@@ -113,7 +113,7 @@ An example file is also available in [`template/main.typ`](https://github.com/vi
 ## 🔖 Notes
 
 - Beware, all of the labels will be in french (authors != auteurs, appendix != annexe, ...)
-- If you really want to use this template despite not being an INSA student, you can probably figure out what to change in the code (namely labels mentioned above). You can remove the INSA logo by setting `chemin-logo: none`
+- If you really want to use this template despite not being an INSA student, you can probably figure out what to change in the code (namely labels mentioned above). You can remove the INSA logo by setting `logo: none`
 
   Should you still need help, no worries, feel free to reach out !
   
