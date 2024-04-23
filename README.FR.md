@@ -6,8 +6,8 @@
   <a href="https://typst.app">
     <img alt="typst" src="https://img.shields.io/badge/Typst-%232f90ba.svg?&logo=Typst&logoColor=white"
   /></a>
-  <a href="./LICENSE">
-    <img alt="MIT" src="https://img.shields.io/github/license/vitto4/ttuile?style=for-the-badge)"
+  <a href="https://github.com/vitto4/ttuile/blob/main/LICENSE">
+    <img alt="MIT" src="https://img.shields.io/github/license/vitto4/ttuile"
   /></a>
   <a href="https://github.com/vitto4/ttuile/releases">
     <img alt="GitHub Release" src="https://img.shields.io/github/v/release/vitto4/ttuile"
