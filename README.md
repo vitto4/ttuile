@@ -67,7 +67,7 @@ The template is now ready to be used, and can be called supplying the following 
 | `date` | `none` | `datetime \| content?` | Date at which the lab work/practical was carried out. |
 | `sommaire` | `true` | `bool` | Display the table of contents ? |
 | `logo` | `image("logo-insa-lyon.png")` | `image?` | University logo to use. |
-| `point-legende` | `false` | `bool` | Enable automatic enforcing of figures' captions ending in a full stop (still somewhat experimental). |
+| `point-legende` | `false` | `bool` | Enable automatic enforcement of full stops at the end of figures' captions. (still somewhat experimental). |
 
 A single positional argument is accepted, being the report's body.
 
