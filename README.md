@@ -117,7 +117,7 @@ An example file is also available in [`template/main.typ`](https://github.com/vi
 
   Should you still need help, no worries, feel free to reach out !
   
-- The code - variable names and comments - are all in french. That's on me, I didn't really think it through when first writing the template haha. I might consider translating sometime in the future.
+- The code - variable names and comments - is all in french. That's on me, I didn't really think it through when first writing the template haha. I might consider translating sometime in the future.
 - The MIT license doesn't apply to the file `logo-insa-lyon.png`, it was retrieved from [INSA Lyon - éléments graphiques](https://www.insa-lyon.fr/fr/elements-graphiques). It doesn't apply either to the "INSA" branding.
 
 
