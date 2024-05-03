@@ -113,7 +113,7 @@
       #grid(
         columns: (5fr, 1fr),
         // Alignement à gauche des auteurs
-        align(left + top)[
+        align(left + horizon)[
           #{
             let type-entree = type(auteurs)
             // Déclarations pour utiliser sur plusieurs scopes
