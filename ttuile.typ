@@ -504,7 +504,7 @@
         #let sup = if (it.supplement == [Fig.]) [Figure] else {it.supplement}
 
         // Affichage de la légende
-        #sup #counter(figure).display() :
+        #sup #it.counter.display() :
         #text(style: "italic")[#legende]
       ]
     )
@@ -518,6 +518,7 @@
     let element = it.element
 
     // Typst could use a match/switch syntax
+    // or I just don't know what I'm doing ,_,
     if element != none {
       let element-type = element.func()
       
@@ -535,7 +536,13 @@
           element.numbering,
           ..counter(figure).at(element.location())
         )
-        link(it.target)[#underline(text(style: "italic")[Figure #numero])]
+
+        // Éviter de se faire piéger avec `supplement: auto`.
+        if (it.element.caption.supplement == [Fig.]) {          
+          link(it.target)[#underline(text(style: "italic")[Figure #numero])]
+        } else {
+          underline(text(style: "italic")[#it])
+        }
 
       } else if (element-type == heading) {
         
