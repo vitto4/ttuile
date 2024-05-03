@@ -572,10 +572,7 @@
         }
         // Affichage de la référence fabriquée, ainsi qu'un lien vers
         // l'objet référencé.
-        link(it.target)[
-          #texte
-        ]
-        
+        link(it.target)[#texte]
       } else {
         // Si aucun match, c'est qu'on a rien à changer
         it
