@@ -12,7 +12,7 @@ Function used to create an `annexe` object, for future use with function `affich
 
 | Argument | Default value | Type | Description |
 |:--------:|:-------------:|:----:|:------------|
-| `titre` | - | `content` | Title of your appendix. |
+| `titre` | `none` | `content?` | Title of your appendix. |
 | `reference` | `none` | `label` | Label that you'll be using in the body to refer to this appendix. |
 
 A single positional argument is accepted, being the appendix's body.

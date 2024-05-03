@@ -703,10 +703,13 @@
         #{4 * v(espace-vert-titres)}
       ]
     }
-    [
+    if (titre != none) [
       #heading()[
         #titre
-      ] #ref // Passer la référence avec
+      ] #ref
+    ] else [
+      // Pour que le titre puisse être détecté comme vide par l'outline.
+      #heading(none) #ref
     ]
   }
 
@@ -790,7 +793,7 @@
           weight: 500,
         )[
           // Ajouter les text "Annexe" devant chaque entrée
-          Annexe #numero : 
+          Annexe #numero #{if (it.element.body != []) [:]}    // Ne pas afficher `:` si le titre est vide
         ]
         #it.element.body
         #box(width: 1fr, repeat(it.fill.body))

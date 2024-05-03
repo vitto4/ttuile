@@ -12,7 +12,7 @@ Fonction utilisée pour définir un objet `annexe`. Cet objet - étant un `dicti
 
 | Argument | Valeur par défaut | Type | Description |
 |:--------:|:-----------------:|:----:|:------------|
-| `titre` | - | `content` | Titre de l'annexe. |
+| `titre` | `none` | `content?` | Titre de l'annexe. |
 | `reference` | `none` | `label` | Label/référence à utiliser dans le corps du rapport pour se référer à l'annexe. |
 
 Un seul argument positionnel est accepté, étant le corps de l'annexe.
