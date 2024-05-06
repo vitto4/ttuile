@@ -2,7 +2,7 @@
 // Documentation available in the readme file.
 
 // * : ttuile, equation-anonyme, annexe, afficher-annexes, figure-emboitee
-#import "@preview/ttuile:0.1.0": *
+#import "@preview/ttuile:0.1.1": *
 
 #show: ttuile.with(
   titre: [« #lorem(8) »],
@@ -164,6 +164,6 @@ $
 ]
 
 #afficher-annexes(
-  annexes: (annexe-1,),
+  annexes: (annexe-1,),   // Ajouter les autres annexes dans la liste
   table: true,            // `true` par défaut, on demande l'affichage de la table des annexes
 )

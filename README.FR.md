@@ -37,7 +37,7 @@
 
 ## 📎 Utilisation
 
-Ce template est disponible sur _Typst Universe_ : [`@preview/ttuile:0.1.0`](https://typst.app/universe/package/ttuile).
+Ce template est disponible sur _Typst Universe_ : [`@preview/ttuile:0.1.1`](https://typst.app/universe/package/ttuile).
 
 Pour l'utiliser de manière complètement locale, il est nécessaire de placer les fichiers `ttuile.typ` et `logo-insa-lyon.png` à la racine du projet, ou de les uploader dans la _Typst web app_ le cas échéant.
 
@@ -76,7 +76,7 @@ Le template peut ensuite être utilisé selon la syntaxe suivante :
 // #import "ttuile.typ": *
 
 // Universe import
-#import "@preview/ttuile:0.1.0": *
+#import "@preview/ttuile:0.1.1": *
 
 #show: ttuile.with(
   titre: [« #lorem(8) »],

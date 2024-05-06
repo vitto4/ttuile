@@ -38,7 +38,7 @@
 
 This template targets french students, thus labels will be in french, see [Notes](#-notes).
 
-It is available on _Typst Universe_ : [`@preview/ttuile:0.1.0`](https://typst.app/universe/package/ttuile).
+It is available on _Typst Universe_ : [`@preview/ttuile:0.1.1`](https://typst.app/universe/package/ttuile).
 
 If you wish to use it in a fully local manner, you'll need to either manually include `ttuile.typ` and `logo-insa-lyon.png` in your project's root directory ; or upload them to the _Typst web app_ if that's what you use.
 
@@ -78,7 +78,7 @@ You can call the template using the following syntax :
 // #import "ttuile.typ": *
 
 // Universe import
-#import "@preview/ttuile:0.1.0": *
+#import "@preview/ttuile:0.1.1": *
 
 #show: ttuile.with(
   titre: [« #lorem(8) »],

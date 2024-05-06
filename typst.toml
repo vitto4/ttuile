@@ -1,6 +1,6 @@
 [package]
 name = "ttuile"
-version = "0.1.0"
+version = "0.1.1"
 entrypoint = "ttuile.typ"
 authors = ["vitto <@vitto4>"]
 license = "MIT"
